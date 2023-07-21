@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: api-frontend
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/khala-1-tenant/api-frontend/api-frontend@sha256:6af28802fa4c9ae76be533c758fc3b6f3cc07e1863aee9c8154631a0aaec1671
         imagePullPolicy: Always
         name: container-image
         ports:
