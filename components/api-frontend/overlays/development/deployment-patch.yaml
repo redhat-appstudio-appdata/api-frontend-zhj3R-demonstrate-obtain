@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/khala-1-tenant/api-frontend/api-frontend@sha256:650ff42c54336e21738cd060beb3bd3f0b6f5301046a06a480e469d6ef638286
+      - image: quay.io/redhat-user-workloads/khala-1-tenant/api-frontend/api-frontend@sha256:6af28802fa4c9ae76be533c758fc3b6f3cc07e1863aee9c8154631a0aaec1671
         name: container-image
         resources: {}
 status: {}
